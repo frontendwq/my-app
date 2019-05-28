@@ -1,0 +1,28 @@
+.todolist{
+  width:430px;
+  text-align: left;
+}
+.t-header input:first-child{
+  width:300px;
+  margin-right: 45px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+ul li{
+  border: 1px solid #ccc;
+}
+ul li >.delete-btn{
+  display: none;
+  margin-left: 320px;
+}
+ul li:hover > .delete-btn{
+  display: inline-block;
+}
+.filter-btn{
+  margin-right: 10px;
+}
+.clicked-btn{
+  background-color: aqua;
+}
